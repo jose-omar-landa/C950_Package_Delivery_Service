@@ -1,6 +1,6 @@
 
 
-class MyChainingHashTable:
+class MyHashTable:
 
     # constructor that sets the array size and initializes the map array
     def __init__(self, initial_size=40):

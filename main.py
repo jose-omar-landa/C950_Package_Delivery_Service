@@ -5,7 +5,7 @@
 import csv
 import datetime
 from truck import Truck
-from createHashTable import MyChainingHashTable
+from createHashTable import MyHashTable
 from package import Package
 
 # this will read the data inside the package csv file
@@ -78,7 +78,7 @@ third_truck = Truck(16, 18, [2, 4, 5, 7, 8, 9, 10, 11, 12, 17, 22, 23, 24, 27, 3
 
 
 # this creates the hash table using the createHashTable class
-package_table = MyChainingHashTable()
+package_table = MyHashTable()
 
 
 # this section loads packages into the hash table created above
