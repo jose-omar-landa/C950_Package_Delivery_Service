@@ -67,7 +67,7 @@ first_truck = Truck(16, 18, [1, 13, 14, 15, 16, 19, 20, 21, 29, 30, 31, 34, 37, 
                     "4001 South 700 East", datetime.timedelta(hours=8))
 
 
-# this is the second truck being manually loaded with packages (removed 25 and 26 from packages d/t error)
+# this is the second truck being manually loaded with packages
 second_truck = Truck(16, 18, [3, 6, 18, 25, 26, 28, 32, 33, 36, 38], 0.0,
                      "4001 South 700 East", datetime.timedelta(hours=9, minutes=10))
 
